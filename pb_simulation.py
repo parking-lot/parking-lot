@@ -89,6 +89,9 @@ class Simulation:
                         wstr += str(cnt)
                     cnt += 1
 
+                if cell.cellType == 'GOAL':
+                    wstr = 'G0'
+
                 f.write(wstr + ',')
             f.write('\n')
 
