@@ -50,6 +50,9 @@ class Cell:
 class Grid:
     def __init__(self):
         self.grid = {}
+        self.width = 0
+        self.height = 0
+        #self.goalList = None
 
     # Builds a grid from a text file
     def readFromFile(self, infile):
@@ -133,6 +136,9 @@ class Grid:
                 y += 1
             x += 1
 
+        self.height = x
+        self.width = y
+
     # Get a list of valid, non occupied neighbors
     # if no neighbor found, returns None
     def getNeighbors(self, (x,y)):
@@ -162,13 +168,12 @@ class Grid:
         q.put((startPos, None, 0))
         while not q.empty():
             (pos, parent, cost) = q.get()
-            #print pos
-            # If goal found.
+
             if pos == goalPos:
                 while pos != startPos:
                     pathList.append(pos)
                     (pos, _) = visited[pos]
-
+                #pathList.reverse()
                 return pathList
 
             cell = self.grid[pos]
@@ -184,29 +189,53 @@ class Grid:
 
         return 1
 
+#    #Finds best path from startPos to goal
+#    def findPath(self, startPos, goalPos):
+#        pq = Queue.PriorityQueue()
+#        pq.put(startPos)
+#        pathlist = []
+#
+#        while not pq.empty():
+#            (val, pos, parent, cost) = pq.get()
+#
+#            # Goal popped, so end the search
+#            if pos == goalPos:
+#                return
+#
+#            cell = self.grid[pos]
+#            neighborList = self.getNeighbors(pos)
+#
+#            cell = self.grid[pos]
+#            neighborList = self.getNeighbors(pos)
+#
+#            # No neighbor, dead end, continue
+#            if neighborList is None:
+#                continue
+#
+#            for nPos in neighborList:
+#                # Calculate the Heuristic value
+#                hVal = manhattanDist(nPos, goalPos)
 
-    """
-    # Finds best path from startPos to goal
-    def findPath(self, startPos, goalPos):
-        pq = Queue.PriorityQueue()
-        pq.put(startPos)
+    def toList(self):
+        return []
 
-        while not pq.empty():
-            (val, pos) = pq.get()
+    # Returns position of the parking spots
+    def parkingSpotList(self):
+        psList = []
+        for x in range(0, self.height):
+            for y in range(0, self.width):
+                cell = self.grid[(x,y)]
+                if cell.cellType == "PARK":  # If parking spot append to list
+                    psList.append((x,y))
 
-            # Goal popped, so end the search
-            if pos == goalPos:
-                return
+        return psList
 
-            cell = self.grid[pos]
-            neighborList = self.getNeighbors(pos)
+    def goalList(self):
+        gList = []
+        for x in range(0, self.height):
+            for y in range(0, self.width):
+                cell = self.grid[(x,y)]
+                if cell.cellType == "GOAL":
+                    gList.append((x,y))
 
-            # No neighbor, dead end, continue
-            if neighborList is None:
-                continue
-
-            for nPos in neighborList:
-                # Calculate the Heuristic value
-                hVal = manhattanDist(nPos, goalPos)
-    """
-
+        return gList
