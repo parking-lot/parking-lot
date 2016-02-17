@@ -4,16 +4,18 @@ from pb_car import *
 import copy
 
 class Simulation:
-
-    def __init__(self):
+    def __init__(self, outputFileName):
         self.time = 0
-
+        self.f = open(outputFileName, 'w')
         self.grid = Grid()
         self.carQueue = []
         self.carList = []
         self.carCnt = 0
         self.prefList = []
         self.prefCnt = 0
+
+    def closeFile(self):
+        self.f.close()
 
     def loadMapFromFile(self, fileName):
         self.grid.readFromFile(fileName)
@@ -50,5 +52,46 @@ class Simulation:
     def debugOut(self):
         print "time:"
         print self.time
+        cnt = 0
         for car in self.carList:
+            print cnt
             print car.pos
+            self.output()
+            cnt += 1
+
+    def output(self):
+        f = self.f
+
+        grid = self.grid
+        for x in range(0, grid.width):
+            for y in range(0, grid.height):
+                cell = grid.grid[(x,y)]
+                wstr = cell.cellType[0]
+
+                if cell.cellType == 'EXIT':
+                    wstr = 'X'
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr = 'C'
+                #if wstr == 'R' or wstr == 'P':
+                if cell.up:
+                    wstr += 'u'
+                if cell.down:
+                    wstr += 'd'
+                if cell.left:
+                    wstr += 'l'
+                if cell.right:
+                    wstr += 'r'
+
+                cnt = 0
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr += str(cnt)
+                    cnt += 1
+
+                f.write(wstr + ',')
+            f.write('\n')
+
+        f.write('!\n')
+        return None
+
