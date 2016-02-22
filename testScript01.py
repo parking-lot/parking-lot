@@ -8,6 +8,5 @@ sim.loadCars('temp')
 for i in range(0,40):
     sim.advanceTimeStep()
     sim.debugOut()
-#sim.output('temp')
 
 sim.closeFile()

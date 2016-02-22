@@ -7,9 +7,9 @@ class Preference:
         self.psList = None #parking spot list
         self.gList = None #goal list
         self.exitList = None #exit list
-        self.walkWeight = 0
-        self.parkWeight = 0
-        self.exitWeight = 0
+#        self.walkWeight = 0
+#        self.parkWeight = 0
+#        self.exitWeight = 0
 
     def loadGrid(self, grid):
         self.grid = grid

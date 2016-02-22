@@ -37,7 +37,7 @@ class Simulation:
         self.carQueue.append(car07)
         car08 = Car((8,0), 14, 10, 1)
         self.carQueue.append(car08)
-        car09 = Car((8,0), 15, 10, 1)
+        car09 = Car((8,0), 15, 10, 0)
         self.carQueue.append(car09)
 
     def addPreferences(self):
