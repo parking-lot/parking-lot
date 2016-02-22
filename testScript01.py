@@ -2,7 +2,7 @@ from pb_simulation import *
 
 sim = Simulation('test_out02.txt')
 sim.loadMapFromFile('test_map_02.txt')
-sim.addPreference_1()
+sim.addPreferences()
 sim.loadCars('temp')
 
 for i in range(0,30):

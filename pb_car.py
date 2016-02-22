@@ -4,8 +4,8 @@ class Car:
         self.time_staying = time_staying
         self.pref = pref
         self.pos = pos
-        self.goalPos = None
+        self.parkPos = None
         self.pathList = []
 
-    def setGoal(self, goalPos):
-        self.goalPos = goalPos
+    def setGoal(self, parkPos):
+        self.parkPos = parkPos

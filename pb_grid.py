@@ -129,8 +129,29 @@ class Grid:
                 elif cell == 'exit':    # is exit
                     newCell.cellType = "EXIT"
 
-                elif cell == 'entr':    # is entrance
+                elif cell[0:4] == 'entr':    # is entrance
                     newCell.cellType = "ENTR"
+                    newCell.neighbors = []
+
+                    if cell[1] == 'e':  # is empty
+                        newCell.occupied = False
+                    if cell[1] == 'f':  # is occupied
+                        newCell.occupied = True
+
+                    for idx in range(2,len(cell)):
+                        direction = cell[idx]
+                        if direction == 'u':
+                            newCell.up = True
+                            newCell.neighbors.append((x-1,y))
+                        if direction == 'd':
+                            newCell.down = True
+                            newCell.neighbors.append((x+1,y))
+                        if direction == 'l':
+                            newCell.left = True
+                            newCell.neighbors.append((x,y-1))
+                        if direction == 'r':
+                            newCell.right = True
+                            newCell.neighbors.append((x,y+1))
 
                 self.grid[(x,y)] = copy.deepcopy(newCell)
                 y += 1
@@ -157,6 +178,26 @@ class Grid:
 
         return None
 
+    def getNeighbors_no_direction(self, (x,y)):
+        cell = self.grid[(x,y)]
+
+        neighbors = []
+        # x is the row, not the conventional horizontal column.
+        # up
+        if x-1 >= 0:
+            neighbors.append((x-1,y))
+        # down
+        if x+1 < self.height:
+            neighbors.append((x+1,y))
+        # left
+        if y-1 >= 0:
+            neighbors.append((x,y-1))
+        # right
+        if y+1 < self.width:
+            neighbors.append((x,y+1))
+
+        return neighbors
+
     def manhattanDist((x0,y0), (x1,y1)):
         return abs(x0 - x1) + abs(y0 - y1)
 
@@ -173,7 +214,6 @@ class Grid:
                 while pos != startPos:
                     pathList.append(pos)
                     (pos, _) = visited[pos]
-                #pathList.reverse()
                 return pathList
 
             cell = self.grid[pos]
@@ -188,6 +228,35 @@ class Grid:
                     q.put((nPos, pos, cost+1))
 
         return 1
+
+    def findPathBFS_no_direction(self, startPos, goalPos):
+        q = Queue.Queue()
+        visited = {}
+        pathList = []
+
+        q.put((startPos, None, 0))
+        while not q.empty():
+            (pos, parent, cost) = q.get()
+
+            if pos == goalPos:
+                while pos != startPos:
+                    pathList.append(pos)
+                    (pos, _) = visited[pos]
+                return pathList
+
+            cell = self.grid[pos]
+            neighborList = self.getNeighbors_no_direction(pos)
+
+            if neighborList is None:
+                continue
+
+            for nPos in neighborList:
+                if nPos not in visited:
+                    visited[nPos] = (pos, cost)
+                    q.put((nPos, pos, cost+1))
+
+        return 1
+
 
 #    #Finds best path from startPos to goal
 #    def findPath(self, startPos, goalPos):
@@ -227,7 +296,6 @@ class Grid:
                 cell = self.grid[(x,y)]
                 if cell.cellType == "PARK":  # If parking spot append to list
                     psList.append((x,y))
-
         return psList
 
     def goalList(self):
@@ -237,5 +305,22 @@ class Grid:
                 cell = self.grid[(x,y)]
                 if cell.cellType == "GOAL":
                     gList.append((x,y))
-
         return gList
+
+    def entranceList(self):
+        eList = []
+        for x in range(0, self.height):
+            for y in range(0, self.width):
+                cell = self.grid[(x,y)]
+                if cell.cellType == "ENTR":
+                    eList.append((x,y))
+        return eList
+
+    def exitList(self):
+        eList = []
+        for x in range(0, self.height):
+            for y in range(0, self.width):
+                cell = self.grid[(x,y)]
+                if cell.cellType == "EXIT":
+                    eList.append((x,y))
+        return eList

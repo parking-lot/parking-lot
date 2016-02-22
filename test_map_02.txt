@@ -6,5 +6,5 @@ w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
 w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
 w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
 exit,rlr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-entr,rr  ,rr  ,rr  ,rru ,rr  ,rr  ,rr  ,ru  ,w
+entrr,rr  ,rr  ,rr  ,rru ,rr  ,rr  ,rr  ,ru  ,w
 w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,w
