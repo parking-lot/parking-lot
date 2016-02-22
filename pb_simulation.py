@@ -78,13 +78,10 @@ class Simulation:
         self.time += 1
 
     def debugOut(self):
-        print "time:"
-        print self.time
+        print "time:" + str(self.time)
         cnt = 0
         for car in self.carList:
-            print cnt
-            print car.pos
-            #self.output()
+            print str(cnt) + str(car.pos)
             cnt += 1
 
         self.output()
@@ -100,19 +97,13 @@ class Simulation:
 
                 if cell.cellType == 'EXIT':
                     wstr = 'X'
+
                 for car in self.carList:
-                    print 'carpos'
-                    print car.pos
-                    print 'parkpos'
-                    print car.parkPos
-                    #if car.pos == car.parkPos[1]:
-                    #    wstr = 'F'
                     if car.pos == (x,y):
+                        wstr = 'C'
                         if car.pos == car.parkPos[1]:
                             wstr = 'F'
-                        else :
-                            wstr = 'C'
-                #if wstr == 'R' or wstr == 'P':
+
                 if cell.up:
                     wstr += 'u'
                 if cell.down:
