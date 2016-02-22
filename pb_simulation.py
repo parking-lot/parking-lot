@@ -40,7 +40,6 @@ class Simulation:
         car09 = Car((8,0), 15, 10, 1)
         self.carQueue.append(car09)
 
-
     def addPreferences(self):
         pref = Preference_00()
         pref.loadGrid(self.grid)
@@ -102,8 +101,17 @@ class Simulation:
                 if cell.cellType == 'EXIT':
                     wstr = 'X'
                 for car in self.carList:
+                    print 'carpos'
+                    print car.pos
+                    print 'parkpos'
+                    print car.parkPos
+                    #if car.pos == car.parkPos[1]:
+                    #    wstr = 'F'
                     if car.pos == (x,y):
-                        wstr = 'C'
+                        if car.pos == car.parkPos[1]:
+                            wstr = 'F'
+                        else :
+                            wstr = 'C'
                 #if wstr == 'R' or wstr == 'P':
                 if cell.up:
                     wstr += 'u'
