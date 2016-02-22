@@ -81,7 +81,10 @@ class Simulation:
         print "time:" + str(self.time)
         cnt = 0
         for car in self.carList:
-            print str(cnt) + str(car.pos)
+            if car.pos == car.parkPos[1]:
+                print 'car'  + str(cnt) + ' parked:' + str(car.pos)
+            else :
+                print 'car'  + str(cnt) + ' pos:' + str(car.pos)
             cnt += 1
 
         self.output()
