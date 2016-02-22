@@ -7,6 +7,9 @@ class Preference:
         self.psList = None #parking spot list
         self.gList = None #goal list
         self.exitList = None #exit list
+        self.walkWeight = 0
+        self.parkWeight = 0
+        self.exitWeight = 0
 
     def loadGrid(self, grid):
         self.grid = grid
@@ -27,7 +30,15 @@ class Preference:
 
     # returns tuple (distance, (x, y))
     def getParkingSpot(self):
-        return hq.heappop(self.pq)
+        # add the parking spot to occupied list
+        psPos =  hq.heappop(self.pq)
+        #self.removeParkingSpot(psPos[1])
+        return psPos
+
+    def removeParkingSpot(self, pos):
+        for (compVal, psPos) in self.pq:
+            if psPos == pos:
+                self.pq.remove((compVal, psPos))
 
 # Closest to goal
 class Preference_00(Preference):
@@ -49,11 +60,11 @@ class Preference_01(Preference):
 
     # currently supports only 1 entrance
     def createPriorityList(self, entrancePos):
-        walk_weight = 1.5 # Larger value is larger penalty
-        park_weight = 1.1 # Larger value is larger penalty
+        self.walk_weight = 2.0 # Larger value is larger penalty
+        self.park_weight = 1.0 # Larger value is larger penalty
         goalPos = self.gList[0]
         for psPos in self.psList:
-            compVal = (walk_weight * self.manhattan_dist(psPos, goalPos)) + (park_weight * self.pathLength(entrancePos, psPos))
+            compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.park_weight * self.pathLength(entrancePos, psPos))
             hq.heappush(self.pq, (compVal, psPos))
         return None
 
@@ -71,11 +82,11 @@ class Preference_02(Preference):
 
     def createPriorityList(self, entrancePos):
         self.exitList = self.grid.exitList()
-        walk_weight = 1.0 # Larger value is larger penalty
-        exit_weight = 1.1 # Larger value is larger penalty
+        self.walk_weight = 1.0 # Larger value is larger penalty
+        self.exit_weight = 2.0 # Larger value is larger penalty
         goalPos = self.gList[0]
         exitPos = self.exitList[0]
         for psPos in self.psList:
-            compVal = (walk_weight * self.manhattan_dist(psPos, goalPos)) + (exit_weight * self.pathLength(psPos, exitPos))
+            compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.exit_weight * self.pathLength(psPos, exitPos))
             hq.heappush(self.pq, (compVal, psPos))
         return None

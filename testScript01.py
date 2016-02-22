@@ -5,10 +5,9 @@ sim.loadMapFromFile('test_map_02.txt')
 sim.addPreferences()
 sim.loadCars('temp')
 
-for i in range(0,30):
+for i in range(0,50):
     sim.advanceTimeStep()
     sim.debugOut()
-
 #sim.output('temp')
 
 sim.closeFile()

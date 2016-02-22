@@ -26,10 +26,20 @@ class Simulation:
         self.carQueue.append(car02)
         car03 = Car((8,0), 4, 100, 2)
         self.carQueue.append(car03)
-        car04 = Car((8,0), 7, 100, 1)
+        car04 = Car((8,0), 7, 100, 0)
         self.carQueue.append(car04)
         car05 = Car((8,0), 8, 10, 2)
         self.carQueue.append(car05)
+
+        car06 = Car((8,0), 10, 10, 1)
+        self.carQueue.append(car06)
+        car07 = Car((8,0), 11, 10, 1)
+        self.carQueue.append(car07)
+        car08 = Car((8,0), 14, 10, 1)
+        self.carQueue.append(car08)
+        car09 = Car((8,0), 15, 10, 1)
+        self.carQueue.append(car09)
+
 
     def addPreferences(self):
         pref = Preference_00()
@@ -37,17 +47,17 @@ class Simulation:
         pref.createPriorityList()
         self.prefList.append(copy.deepcopy(pref))
 
-        pref2 = Preference_01()
-        pref2.loadGrid(self.grid)
+        pref = Preference_01()
+        pref.loadGrid(self.grid)
         eList = self.grid.entranceList()
-        pref2.createPriorityList(eList[0])
-        self.prefList.append(copy.deepcopy(pref2))
+        pref.createPriorityList(eList[0])
+        self.prefList.append(copy.deepcopy(pref))
 
-        pref2 = Preference_02()
-        pref2.loadGrid(self.grid)
+        pref = Preference_02()
+        pref.loadGrid(self.grid)
         eList = self.grid.entranceList()
-        pref2.createPriorityList(eList[0])
-        self.prefList.append(copy.deepcopy(pref2))
+        pref.createPriorityList(eList[0])
+        self.prefList.append(copy.deepcopy(pref))
 
 
     def advanceTimeStep(self):
@@ -62,6 +72,8 @@ class Simulation:
                 print car.pref
                 car.parkPos = self.prefList[car.pref].getParkingSpot()
                 car.pathList = self.grid.findPathBFS(car.pos, car.parkPos[1])
+                for pref in self.prefList:
+                    pref.removeParkingSpot(car.parkPos[1])
                 self.carList.append(car)
 
         self.time += 1
@@ -73,8 +85,10 @@ class Simulation:
         for car in self.carList:
             print cnt
             print car.pos
-            self.output()
+            #self.output()
             cnt += 1
+
+        self.output()
 
     def output(self):
         f = self.f
