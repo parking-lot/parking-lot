@@ -20,6 +20,9 @@ class Simulation:
 
     def loadCars(self, fileName):
         # Car(entrance, enteringTime, stayingTime, preference)
+        eList = self.grid.entranceList()
+        print eList;
+
         car01 = Car((8,0), 0, 100, 1)
         self.carQueue.append(car01)
         car02 = Car((8,0), 2, 100, 1)
@@ -30,7 +33,6 @@ class Simulation:
         self.carQueue.append(car04)
         car05 = Car((8,0), 8, 10, 2)
         self.carQueue.append(car05)
-
         car06 = Car((8,0), 10, 10, 1)
         self.carQueue.append(car06)
         car07 = Car((8,0), 11, 10, 1)
@@ -39,6 +41,26 @@ class Simulation:
         self.carQueue.append(car08)
         car09 = Car((8,0), 15, 10, 0)
         self.carQueue.append(car09)
+        """
+        car01 = Car((8,0), 0, 100, 1)
+        self.carQueue.append(car01)
+        car02 = Car((8,0), 2, 100, 1)
+        self.carQueue.append(car02)
+        car03 = Car((8,0), 4, 100, 1)
+        self.carQueue.append(car03)
+        car04 = Car((8,0), 7, 100, 1)
+        self.carQueue.append(car04)
+        car05 = Car((8,0), 8, 10, 1)
+        self.carQueue.append(car05)
+        car06 = Car((8,0), 10, 10, 1)
+        self.carQueue.append(car06)
+        car07 = Car((8,0), 11, 10, 1)
+        self.carQueue.append(car07)
+        car08 = Car((8,0), 14, 10, 1)
+        self.carQueue.append(car08)
+        car09 = Car((8,0), 15, 10, 1)
+        self.carQueue.append(car09)
+        """
 
     def addPreferences(self):
         pref = Preference_00()
@@ -49,6 +71,8 @@ class Simulation:
         pref = Preference_01()
         pref.loadGrid(self.grid)
         eList = self.grid.entranceList()
+        print 'entrance list'
+        print eList
         pref.createPriorityList(eList[0])
         self.prefList.append(copy.deepcopy(pref))
 
@@ -98,14 +122,26 @@ class Simulation:
                 cell = grid.grid[(x,y)]
                 wstr = cell.cellType[0]
 
+                if cell.cellType == 'PARK':
+                    wstr = 'p'
+
+                if cell.cellType == 'WALL':
+                    wstr = 'w'
+
+                if cell.cellType == 'ROAD':
+                    wstr = 'r'
+
+                if cell.cellType == 'ENTR':
+                    wstr = 'e'
+
                 if cell.cellType == 'EXIT':
-                    wstr = 'X'
+                    wstr = 'x' + str(cell.idnum)
 
                 for car in self.carList:
                     if car.pos == (x,y):
-                        wstr = 'C'
+                        wstr = 'c'
                         if car.pos == car.parkPos[1]:
-                            wstr = 'F'
+                            wstr = 'f'
 
                 if cell.up:
                     wstr += 'u'
@@ -120,10 +156,12 @@ class Simulation:
                 for car in self.carList:
                     if car.pos == (x,y):
                         wstr += str(cnt)
+                        wstr += 'p'
+                        wstr += str(car.pref)
                     cnt += 1
 
                 if cell.cellType == 'GOAL':
-                    wstr = 'G0'
+                    wstr = 'g' + str(cell.idnum)
 
                 f.write(wstr + ',')
             f.write('\n')

@@ -55,7 +55,14 @@ class Preference_00(Preference):
 # Closest to goal (temporal)
 class Preference_01(Preference):
     def pathLength(self, (x0, y0), (x1, y1)):
+        print "running bfs on preference 01"
+        print (x0, y0)
+        print (x1, y1)
         temp_list = self.grid.findPathBFS((x0, y0), (x1, y1))
+        #print 'tempList'
+        #print (x0, y0)
+        #print (x1, y1)
+        #print temp_list
         return len(temp_list)
 
     # currently supports only 1 entrance
@@ -63,6 +70,8 @@ class Preference_01(Preference):
         self.walk_weight = 2.0 # Larger value is larger penalty
         self.park_weight = 1.0 # Larger value is larger penalty
         goalPos = self.gList[0]
+        print "printing parking spot list"
+        print self.psList
         for psPos in self.psList:
             compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.park_weight * self.pathLength(entrancePos, psPos))
             hq.heappush(self.pq, (compVal, psPos))

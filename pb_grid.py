@@ -1,6 +1,13 @@
 import copy
 import Queue
 
+def isInt(s):
+    try:
+        int(s)
+        return True
+    except ValueError:
+        return False
+
 class Cell:
     def __init__(self, (x, y), cellType):
         self.x = x
@@ -14,6 +21,7 @@ class Cell:
         self.right = False
         self.occupied = False
         self.goalName = None
+        self.idnum = 0;
 
     def __str__(self):
         if self.cellType == "WALL":
@@ -85,6 +93,8 @@ class Grid:
 
                     for idx in range(1,len(cell)):
                         direction = cell[idx]
+                        if isInt(cell[idx]) :
+                            int(cell[idx:])
                         if direction == 'u':
                             newCell.up = True
                             newCell.neighbors.append((x-1,y))
@@ -98,16 +108,22 @@ class Grid:
                             newCell.right = True
                             newCell.neighbors.append((x,y+1))
 
-                elif cell[0] == 'p':    # is parking spot
+                elif cell[0] == 'p' or cell[0] == 'f' or cell[0] == 'h' or cell[0] == 'a':    # is parking spot
                     newCell.cellType = "PARK"
                     newCell.neighbors = []
 
-                    if cell[1] == 'e':  # is empty
+                    if cell[0] == 'p':  # is empty
                         newCell.occupied = False
-                    if cell[1] == 'f':  # is occupied
+                    if cell[0] == 'f':  # is occupied
+                        newCell.occupied = True
+                    if cell[0] == 'h':  # is handicapped spot
+                        newCell.occupied = False
+                    if cell[0] == 'a':  # is occupied handicapped spot
                         newCell.occupied = True
 
-                    for idx in range(2,len(cell)):
+                    #newCell.occupied = False
+
+                    for idx in range(1,len(cell)):
                         direction = cell[idx]
                         if direction == 'u':
                             newCell.up = True
@@ -125,20 +141,23 @@ class Grid:
                 elif cell[0] == 'g':    # is goal
                     newCell.cellType = "GOAL"
                     newCell.goalName = copy.deepcopy(cell[1])
+                    if (len(cell) > 1) and isInt(cell[1]):
+                        newCell.idnum = int(cell[1:])
 
-                elif cell == 'exit':    # is exit
+                elif cell[0] == 'x':    # is exit
                     newCell.cellType = "EXIT"
+                    if (len(cell) > 1) and isInt(cell[1]):
+                        newCell.idnum = int(cell[1:])
 
-                elif cell[0:4] == 'entr':    # is entrance
+                elif cell[0] == 'e':    # is entrance
                     newCell.cellType = "ENTR"
                     newCell.neighbors = []
 
-                    if cell[1] == 'e':  # is empty
-                        newCell.occupied = False
-                    if cell[1] == 'f':  # is occupied
-                        newCell.occupied = True
+                    for idx in range(1,len(cell)):
+                        if isInt(cell[idx]):
+                            newCell.idnum = int(cell[idx:])
+                            break
 
-                    for idx in range(2,len(cell)):
                         direction = cell[idx]
                         if direction == 'u':
                             newCell.up = True
@@ -168,6 +187,8 @@ class Grid:
         if cell.neighbors is None:
             return None
 
+        #print 'printing neighbors'
+        #print cell.neighbors
         neighbors = []
         for pos in cell.neighbors:
             if not self.grid[pos].occupied:
@@ -218,6 +239,10 @@ class Grid:
 
             cell = self.grid[pos]
             neighborList = self.getNeighbors(pos)
+
+            #print "BFS debug"
+            #print cell
+            #print neighborList
 
             if neighborList is None:
                 continue

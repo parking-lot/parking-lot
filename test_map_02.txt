@@ -1,10 +1,10 @@
 w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,g0
 w   ,rd  ,rl  ,rl  ,rl  ,rld ,rl  ,rl  ,rl  ,w
-w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-w   ,rdr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-exit,rlr ,pel ,per ,rul ,rdr ,pel ,per ,rul ,w
-entrr,rr  ,rr  ,rr  ,rru ,rr  ,rr  ,rr  ,ru  ,w
+w   ,rdr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+w   ,rdr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+w   ,rdr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+w   ,rdr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+w   ,rdr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+x0,rlr ,pl ,pr ,rul ,rdr ,pl ,pr ,rul ,w
+er0,rr  ,rr  ,rr  ,rru ,rr  ,rr  ,rr  ,ru  ,w
 w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,w   ,w
