@@ -4,9 +4,10 @@ sim = Simulation('test_out03.txt')
 sim.loadMapFromFile('test_map_03.txt')
 sim.debugOut()
 sim.addPreferences()
-sim.loadCars('temp')
+sim.loadCars('carList_01.csv')
 
-for i in range(0,40):
+
+for i in range(0,80):
     sim.advanceTimeStep()
     sim.debugOut()
 

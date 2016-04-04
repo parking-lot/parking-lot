@@ -1,21 +1,11 @@
 import heapq as hq
 
 class Preference:
-    def __init__(self):
-        self.grid = None
-        self.pq = None
-        self.psList = None #parking spot list
-        self.gList = None #goal list
-        self.exitList = None #exit list
-#        self.walkWeight = 0
-#        self.parkWeight = 0
-#        self.exitWeight = 0
-
-    def loadGrid(self, grid):
+    def __init__(self, grid, goalCell, name):
         self.grid = grid
         self.pq = []
-        self.psList = self.grid.parkingSpotList()
-        self.gList = self.grid.goalList()
+        self.goalCell = goalCell
+        self.name = name + str(goalCell.idNum)
 
     def manhattan_dist(self, (x0,y0), (x1,y1)):
         return abs(x0 - x1) + abs(y0 - y1)
@@ -28,11 +18,9 @@ class Preference:
 
         return None
 
-    # returns tuple (distance, (x, y))
-    def getParkingSpot(self):
-        # add the parking spot to occupied list
-        psPos =  hq.heappop(self.pq)
-        #self.removeParkingSpot(psPos[1])
+    # returns tuple (distance to parking spot, (x, y))
+    def getParkingLengthPos(self):
+        psPos = hq.heappop(self.pq)
         return psPos
 
     def removeParkingSpot(self, pos):
@@ -41,15 +29,15 @@ class Preference:
                 self.pq.remove((compVal, psPos))
 
 # Closest to goal
-class Preference_00(Preference):
+class Pref_closest_to_goal(Preference):
+    
     def hVal(self, (x0,y0), (x1,y1)):
         return abs(x0 - x1) + abs(y0 - y1)
 
     def createPriorityList(self):
-        goalPos = self.gList[0]
-        for ps in self.psList:
-            compVal = self.hVal(ps, goalPos)
-            hq.heappush(self.pq, (compVal, ps))
+        for parkSpot in self.grid.parkingSpotList:
+            compVal = self.hVal(parkSpot.pos, self.goalCell.pos)
+            hq.heappush(self.pq, (compVal, parkSpot.pos))
         return None
 
 # Closest to goal (temporal)
@@ -59,10 +47,6 @@ class Preference_01(Preference):
         print (x0, y0)
         print (x1, y1)
         temp_list = self.grid.findPathBFS((x0, y0), (x1, y1))
-        #print 'tempList'
-        #print (x0, y0)
-        #print (x1, y1)
-        #print temp_list
         return len(temp_list)
 
     # currently supports only 1 entrance
