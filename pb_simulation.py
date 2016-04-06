@@ -61,17 +61,20 @@ class Simulation:
                 car.status = "PARKED"
                 car.time_parked = self.time
                 continue
+            
+            if (car.status == "LEAVING"):
+                car.path = self.grid.findPathBFS_to_exit(car.pos, car.exitID)
           
-            # find path every time
+            # find different path if stuck
             if (car.stuck and (car.status != "PARKED") and (car.pos != car.parkPos)):
                 altPath = self.grid.findPathBFS_alternative(car.pos, car.parkPos, car.path[-1])
                 if len(altPath) > 0:
                     car.path = altPath
+                print "stuck cars"
+                print car.idNum
+                print car.pos
                 #car.path = self.grid.findPathBFS_alternative(car.pos, car.parkPos, car.path[-1])
-                
-            if (car.status == "LEAVING"):
-                car.path = self.grid.findPathBFS_to_exit(car.pos, car.exitID)
-                
+               
             # move car to next position
             if car.path:
                 newPos = car.path[-1]
@@ -93,16 +96,19 @@ class Simulation:
             self.grid.grid[car.pos].occupied = True
             
             # Car left through the exit
-            if (car.status == "LEAVING" and len(car.path) == 0):
+            #if (car.status == "LEAVING" and len(car.path) == 0):
+            if (car.status == "LEAVING" and self.grid.isExit(car.pos)):
                 self.carList.remove(car)
                 self.grid.grid[car.pos].occupied = False
                 
-        for _, cell in self.grid.grid.iteritems():
-            cell.occupied = False
-            for car in self.carList:
-                if cell.pos == car.pos:
-                    cell.occupied = True
-                    break
+            
+                
+        #for _, cell in self.grid.grid.iteritems():
+        #    cell.occupied = False
+        #    for car in self.carList:
+        #        if cell.pos == car.pos:
+        #            cell.occupied = True
+        #            break
             
         # Inserting car from queue.
         for car in self.carQueue:
@@ -117,6 +123,7 @@ class Simulation:
                 self.carList.append(car)
 
         self.time += 1
+        
 
     def debugOut(self):
         print "time:" + str(self.time)

@@ -10,7 +10,7 @@ sim.setOutputFileName('output_01.csv')
 
 sim.grid.findPathBFS((16,8),(11,19))
 
-for i in range(0,100):
+for i in range(0,200):
     sim.advanceTimeStep()
     #sim.debugOut()
     sim.output()

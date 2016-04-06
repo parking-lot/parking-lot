@@ -243,7 +243,6 @@ class Grid:
                             cell.newRight = True
                             
         # creating neighborList
-        print "howdy"
         for x in range(0,self.height):
             for y in range(0, self.width):
                 cell = self.grid[(x,y)]
@@ -305,6 +304,16 @@ class Grid:
         
         f.close()
         return None
+
+    def isExit(self, pos):
+        for _, cell in self.exits.iteritems():
+            print "debugging start"
+            print pos
+            print cell.pos
+            print "debugging end"
+            if cell.pos == pos:
+                return True
+        return False
 
     # returns a list of neighbors of all types
     # pos = (x,y) is a tuple
