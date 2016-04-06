@@ -27,6 +27,7 @@ class Preference:
         for (compVal, psPos) in self.pq:
             if psPos == pos:
                 self.pq.remove((compVal, psPos))
+                
 
 # Closest to goal
 class Pref_closest_to_goal(Preference):
@@ -41,34 +42,25 @@ class Pref_closest_to_goal(Preference):
         return None
 
 # Closest to goal (temporal)
-class Preference_01(Preference):
-    def pathLength(self, (x0, y0), (x1, y1)):
-        print "running bfs on preference 01"
-        print (x0, y0)
-        print (x1, y1)
-        temp_list = self.grid.findPathBFS((x0, y0), (x1, y1))
-        return len(temp_list)
-
-    # currently supports only 1 entrance
-    def createPriorityList(self, entrancePos):
+class Pref_closest_to_goal_temporal(Preference):
+    def __init__(self, grid, goalCell, name, walk_weight, park_weight):
+        self.grid = grid
+        self.pq = []
+        self.goalCell = goalCell
+        self.name = name + str(goalCell.idNum)
+        self.walk_weight = walk_weight
+        self.park_weight = park_weight
+        
+    def createPriorityList(self, currPos):
         self.walk_weight = 2.0 # Larger value is larger penalty
         self.park_weight = 1.0 # Larger value is larger penalty
-        goalPos = self.gList[0]
-        print "printing parking spot list"
-        print self.psList
-        for psPos in self.psList:
-            compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.park_weight * self.pathLength(entrancePos, psPos))
+        for psPos in self.grid.parkingSpotList:
+            compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.park_weight * self.grid.getPathLength(currPos, psPos))
             hq.heappush(self.pq, (compVal, psPos))
         return None
 
 # Fastest exit (temporal)
-class Preference_02(Preference):
-    def loadGrid(self, grid):
-        self.grid = grid
-        self.pq = []
-        self.psList = self.grid.parkingSpotList()
-        self.gList = self.grid.goalList()
-
+class Pref_fastest_to_exit_temporal(Preference):
     def pathLength(self, (x0, y0), (x1, y1)):
         temp_list = self.grid.findPathBFS((x0, y0), (x1, y1))
         return len(temp_list)

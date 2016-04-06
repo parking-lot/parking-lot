@@ -30,6 +30,7 @@ class Simulation:
         for line in f:
             car = Car()
             car.initialize_from_string(line)
+            #print "key: " + str(car.entranceID)
             car.pos = self.grid.entrances[car.entranceID].pos
             self.carQueue.append(car)
         f.close()
@@ -41,18 +42,12 @@ class Simulation:
             pref.createPriorityList()
             self.prefs[pref.name] = pref
 
-        #pref = Preference_01()
-        #pref.loadGrid(self.grid)
-        #eList = self.grid.entranceList()
-        #pref.createPriorityList(eList[0])
-        #self.prefList.append(copy.deepcopy(pref))
-        #
-        #pref = Preference_02()
-        #pref.loadGrid(self.grid)
-        #eList = self.grid.entranceList()
-        #pref.createPriorityList(eList[0])
-        #self.prefList.append(copy.deepcopy(pref))
-
+        # adding temporal closest to goal preferences
+        #for _, goal in self.grid.goals.iteritems():
+        #    pref = Pref_closest_to_goal_temporal(self.grid, goal, "closest_to_goal_temporal", 3.0, 1.0)
+        #    pref.createPriorityList()
+        #    self.prefs[pref.name] = pref
+       
     def advanceTimeStep(self):
         # Update position of the current cars
         for car in self.carList:
@@ -70,14 +65,13 @@ class Simulation:
                 altPath = self.grid.findPathBFS_alternative(car.pos, car.parkPos, car.path[-1])
                 if len(altPath) > 0:
                     car.path = altPath
-                print "stuck cars"
-                print car.idNum
-                print car.pos
-                #car.path = self.grid.findPathBFS_alternative(car.pos, car.parkPos, car.path[-1])
                
             # move car to next position
             if car.path:
+                if len(car.path) == 0:
+                    print "path length is 0!!"
                 newPos = car.path[-1]
+                #print "newPos: " + newPos
                 # if the next path is not occupied, move to it position
                 if self.grid.grid[newPos].occupied:
                     car.stuck = True
@@ -168,13 +162,15 @@ class Simulation:
                         if car.pos == car.parkPos:
                             wstr = 'f'
 
-                if cell.up:
+                if cell.original_direction is not None:
+                    wstr += cell.original_direction
+                if cell.up and cell.original_direction != 'u':
                     wstr += 'u'
-                if cell.down:
+                if cell.down and cell.original_direction !='d':
                     wstr += 'd'
-                if cell.left:
+                if cell.left and cell.original_direction != 'l':
                     wstr += 'l'
-                if cell.right:
+                if cell.right and cell.original_direction != 'r':
                     wstr += 'r'
 
                 for car in self.carList:
