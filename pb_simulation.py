@@ -13,6 +13,22 @@ class Simulation:
         self.carList = []   #cars current in the parking lot
         self.prefs = {} #dictionary of preferences (prefName, preference) key is a str
 
+    # Add a car to the queue at current time step.
+    # Check case where another car is present at the entrance, if so, priotize manually added car.
+    # if goalNum is unknown, pass in -1.
+    # if preference is unknown, pass in empty string or Null or None
+    # returns the carID of the car added
+    def addCar(self, entranceNum, goalNum, preference):
+        #TODO
+        return -1
+   
+    # Start the exit procedure for the car with given carID
+    # if exitNum is not known, pass in -1.
+    # returns the exitNumber.
+    def requestToLeave(self, carID, exitNum):
+        #TODO
+        return -1
+
     def closeOutputFile(self):
         self.f.close()
         
@@ -35,9 +51,6 @@ class Simulation:
             self.carQueue.append(car)
         f.close()
         
-    def addCar(self, entrance_num, exit_num, staying_time):
-        #TODO
-        return -1
 
     def addPreferences(self):
         # adding closest to goal preferences
@@ -100,7 +113,6 @@ class Simulation:
                 self.grid.grid[car.pos].occupied = False
                 
             
-                
         #for _, cell in self.grid.grid.iteritems():
         #    cell.occupied = False
         #    for car in self.carList:
@@ -110,11 +122,11 @@ class Simulation:
             
         # Inserting car from queue.
         for car in self.carQueue:
-            if car.time_in == self.time:
+            if car.time_in <= self.time:
                 pathLength, parkPos = self.prefs[car.prefName].getParkingLengthPos()
                 car.parkPos = parkPos
                 car.pathLength = pathLength
-                car.pathLength = pathLength
+                car.time_in = self.time
                 car.path = self.grid.findPathBFS(car.pos, parkPos)
                 for (_, pref) in self.prefs.iteritems():
                     pref.removeParkingSpot(car.parkPos)
