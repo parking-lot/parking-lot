@@ -13,5 +13,6 @@ for i in range(0,10):
     sim.advanceTimeStep()
     #sim.debugOut()
     sim.output()
+    print sim.toList()
 
 sim.closeOutputFile()

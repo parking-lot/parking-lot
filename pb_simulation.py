@@ -34,6 +34,10 @@ class Simulation:
             car.pos = self.grid.entrances[car.entranceID].pos
             self.carQueue.append(car)
         f.close()
+        
+    def addCar(self, entrance_num, exit_num, staying_time):
+        #TODO
+        return -1
 
     def addPreferences(self):
         # adding closest to goal preferences
@@ -185,3 +189,60 @@ class Simulation:
         f.write('!\n')
         return None
 
+    def toList(self):
+        grid = self.grid
+        ret_list = []
+        for x in range(0, grid.height):
+            line_list = []
+            for y in range(0, grid.width):
+                cell = grid.grid[(x,y)]
+                wstr = cell.cellType[0]
+
+                if cell.cellType == 'PARK':
+                    wstr = 'p'
+
+                if cell.cellType == 'WALL':
+                    wstr = 'w'
+
+                if cell.cellType == 'ROAD':
+                    wstr = 'r'
+
+                if cell.cellType == 'ENTR':
+                    wstr = 'e' + str(cell.idNum)
+
+                if cell.cellType == 'EXIT':
+                    wstr = 'x' + str(cell.idNum)
+                    
+                if cell.cellType == 'GOAL':
+                    wstr = 'g' + str(cell.idNum)
+
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr = 'c'
+                        if car.pos == car.parkPos:
+                            wstr = 'f'
+
+                if cell.original_direction is not None:
+                    wstr += cell.original_direction
+                if cell.up and cell.original_direction != 'u':
+                    wstr += 'u'
+                if cell.down and cell.original_direction !='d':
+                    wstr += 'd'
+                if cell.left and cell.original_direction != 'l':
+                    wstr += 'l'
+                if cell.right and cell.original_direction != 'r':
+                    wstr += 'r'
+
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr += str(car.idNum)
+                        wstr += 'p'
+                        wstr += car.prefName
+
+                #f.write(wstr + ',')
+                line_list.append(wstr)
+            ret_list.append(line_list)
+            #f.write('\n')
+
+        #f.write('!\n')
+        return ret_list
