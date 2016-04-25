@@ -2,9 +2,10 @@ from pb_grid import *
 from pb_preference import *
 from pb_car import *
 import copy
+import os
 
 class Simulation:
-    #def __init__(self, outputFileName):
+    # def __init__(self, outputFileName):
     def __init__(self):
         self.time = 0
         #self.f = open(outputFileName, 'w')
@@ -12,28 +13,43 @@ class Simulation:
         self.carQueue = []  #queue of cars to enter the parking lot
         self.carList = []   #cars current in the parking lot
         self.prefs = {} #dictionary of preferences (prefName, preference) key is a str
+        self.outputFileName = None
 
-    # Add a car to the queue at current time step.
-    # Check case where another car is present at the entrance, if so, priotize manually added car.
-    # if goalNum is unknown, pass in -1.
-    # if preference is unknown, pass in empty string or Null or None
-    # returns the carID of the car added
-    def addCar(self, entranceNum, goalNum, preference):
-        #TODO
-        return -1
-   
-    # Start the exit procedure for the car with given carID
-    # if exitNum is not known, pass in -1.
-    # returns the exitNumber.
-    def requestToLeave(self, carID, exitNum):
-        #TODO
-        return -1
+    def openOutputFile(self):
+        self.f = open(self.outputFileName, 'w')
 
     def closeOutputFile(self):
-        self.f.close()
+        f = self.f
+        #f.seek(-1, os.SEEK_END)
+        f.seek(-2,2)
+        f.truncate()
+        f.write(']')
+        f.close()
         
     def setOutputFileName(self, fileName):
+        #self.outputFileName = fileName
         self.f = open(fileName, 'w')
+        f = self.f
+        
+        # beginning:
+        f.write('{\n')
+        
+        # map input:
+        inputFileName = 'reallot.map'
+        f.write('\"map_input\": ')
+        f.write(inputFileName)
+        f.write(',\n')
+        
+        # comments:
+        comments = 'comments'
+        f.write('\"comments\": ')
+        f.write(comments)
+        f.write(',\n')
+        
+        # frames open
+        f.write('\"frames\": ')
+        f.write('[')
+        f.write('\n')
 
     def load_map_from_file(self, fileName):
         self.grid.read_from_file(fileName)
@@ -50,18 +66,23 @@ class Simulation:
             car.pos = self.grid.entrances[car.entranceID].pos
             self.carQueue.append(car)
         f.close()
-        
 
     def addPreferences(self):
+        # 0 : closest to goal
+        # 1 : fastest to goal
+        # 2 : closest to exit
+        # 3 : fastest parking
+        
         # adding closest to goal preferences
         for _, goal in self.grid.goals.iteritems():
-            pref = Pref_closest_to_goal(self.grid, goal, "closest_to_goal")
+            # original: pref = Pref_closest_to_goal(self.grid, goal, "closest_to_goal")
+            pref = Pref_closest_to_goal(self.grid, goal, "0")
             pref.createPriorityList()
             self.prefs[pref.name] = pref
 
         # adding temporal closest to goal preferences
         #for _, goal in self.grid.goals.iteritems():
-        #    pref = Pref_closest_to_goal_temporal(self.grid, goal, "closest_to_goal_temporal", 3.0, 1.0)
+        #    pref = Pref_closest_to_goal_temporal(self.grid, goal, "1", 3.0, 1.0)
         #    pref.createPriorityList()
         #    self.prefs[pref.name] = pref
        
@@ -113,6 +134,7 @@ class Simulation:
                 self.grid.grid[car.pos].occupied = False
                 
             
+                
         #for _, cell in self.grid.grid.iteritems():
         #    cell.occupied = False
         #    for car in self.carList:
@@ -122,11 +144,11 @@ class Simulation:
             
         # Inserting car from queue.
         for car in self.carQueue:
-            if car.time_in <= self.time:
+            if car.time_in == self.time:
                 pathLength, parkPos = self.prefs[car.prefName].getParkingLengthPos()
                 car.parkPos = parkPos
                 car.pathLength = pathLength
-                car.time_in = self.time
+                car.pathLength = pathLength
                 car.path = self.grid.findPathBFS(car.pos, parkPos)
                 for (_, pref) in self.prefs.iteritems():
                     pref.removeParkingSpot(car.parkPos)
@@ -134,7 +156,6 @@ class Simulation:
 
         self.time += 1
         
-
     def debugOut(self):
         print "time:" + str(self.time)
         cnt = 0
@@ -145,9 +166,82 @@ class Simulation:
                 print 'car'  + str(cnt) + ' pos:' + str(car.pos)
             cnt += 1
 
-    def output(self):
-        f = self.f
+    def getPrefList(self, prefNum):
+        prefList = [[],[],[],[]]
+        for car in self.carList:
+            prefList[car.prefNum].append(car.idNum)
+            
+        return str(prefList[prefNum])
 
+    def output(self):
+        #self.openOutputFile()
+        f = self.f
+        
+        # truncating file
+        # f.truncate()
+        
+        # frames open
+        f.write('{')
+        f.write('\n')
+        
+        # preferences open
+        f.write('\"car_prefs": ')
+        f.write('[{')
+        f.write('\n')
+        
+        f.write('\"type\": ')
+        f.write('0')
+        f.write(',\n')
+        
+        f.write('\"cars\":')
+        
+        # TODO placeholder
+        f.write(self.getPrefList(0)) 
+        f.write('\n')
+        f.write('}')
+        
+        f.write(', {\n')
+        f.write('\"type\": ')
+        f.write('1')
+        f.write(',\n')
+        
+        f.write('\"cars\":')
+        # TODO placeholder
+        f.write('[5,6]')
+        f.write('\n')
+        f.write('}')
+       
+        # preferences close
+        f.write('],\n')
+        
+        # car paths open
+        f.write('\"car_paths\": ')
+        f.write('[')
+        f.write('\n')
+        
+        # car open
+        f.write('{')
+        f.write('\"car\": ')
+        
+        # TODO placeholder
+        f.write('0')
+        f.write(',\n')
+        f.write('\"path\": [')
+        f.write('\"0,0\"')
+        f.write(',') 
+        f.write('\"0,1\"')
+        f.write(']\n')
+        
+        # car close
+        f.write('}\n')
+        
+        # car paths close
+        f.write('],\n')
+        
+        # map open
+        f.write('\"map\": \n')
+        f.write('\"\n')
+       
         grid = self.grid
         for x in range(0, grid.height):
             for y in range(0, grid.width):
@@ -196,16 +290,23 @@ class Simulation:
                         wstr += car.prefName
 
                 f.write(wstr + ',')
-            f.write('\n')
+            f.write(';\n')
 
-        f.write('!\n')
+        # map close
+        f.write('\"\n')
+        
+        # frame close
+        f.write('},\n')
+        
+        #self.closeOutputFile()
         return None
 
-    def toList(self):
+   
+    # returns map data as string
+    def getMapStr(self):
         grid = self.grid
-        ret_list = []
+        retStr = ''
         for x in range(0, grid.height):
-            line_list = []
             for y in range(0, grid.width):
                 cell = grid.grid[(x,y)]
                 wstr = cell.cellType[0]
@@ -251,10 +352,7 @@ class Simulation:
                         wstr += 'p'
                         wstr += car.prefName
 
-                #f.write(wstr + ',')
-                line_list.append(wstr)
-            ret_list.append(line_list)
-            #f.write('\n')
-
-        #f.write('!\n')
-        return ret_list
+                retStr += wstr + ','
+            retStr += wstr + ';\n'
+            
+        return retStr

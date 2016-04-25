@@ -51,11 +51,13 @@ class Pref_closest_to_goal_temporal(Preference):
         self.walk_weight = walk_weight
         self.park_weight = park_weight
         
-    def createPriorityList(self, currPos):
+    #def createPriorityList(self, currPos):
+    def createPriorityList(self):
+        currPos = (0,0)
         self.walk_weight = 2.0 # Larger value is larger penalty
         self.park_weight = 1.0 # Larger value is larger penalty
         for psPos in self.grid.parkingSpotList:
-            compVal = (self.walk_weight * self.manhattan_dist(psPos, goalPos)) + (self.park_weight * self.grid.getPathLength(currPos, psPos))
+            compVal = (self.walk_weight * self.manhattan_dist(psPos, self.goalCell.pos)) + (self.park_weight * self.grid.getPathLength(currPos, psPos))
             hq.heappush(self.pq, (compVal, psPos))
         return None
 

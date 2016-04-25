@@ -6,13 +6,19 @@ sim = Simulation()
 sim.load_map_from_file('RealMap.map')
 #sim.debugOut()
 sim.addPreferences()
-sim.loadCars('carList_01.csv')
+sim.loadCars('carList_02.csv')
 sim.setOutputFileName('output_01.csv')
 
-for i in range(0,10):
+for i in range(0,100):
     sim.advanceTimeStep()
-    #sim.debugOut()
+    
+    #sim.addcar()
+    #sim.requestToLeave(id, exitNum)
+    #sim.getTime()
     sim.output()
-    print sim.toList()
+    #sim.debugOut()
+    #sim.output()
+    #print sim.toList()
+    print sim.getMapStr()
 
 sim.closeOutputFile()

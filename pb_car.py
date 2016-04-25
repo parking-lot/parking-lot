@@ -10,6 +10,7 @@ class Car:
         self.time_parked = 1000000
         self.time_staying = 0
         self.prefName = None
+        self.prefNum = 0
         self.pos = None
         self.parkPos = None
         self.pathList = []
@@ -32,4 +33,6 @@ class Car:
         self.exitID = int(infoList[3])
         self.time_in = int(infoList[4])
         self.time_staying = int(infoList[5])
-        self.prefName = infoList[6] + str(self.goalID)
+        #self.prefNum = int(infoList[6])
+        self.prefNum = 0
+        self.prefName = str(self.prefNum) + str(self.goalID)
