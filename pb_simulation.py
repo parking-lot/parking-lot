@@ -102,7 +102,14 @@ class Simulation:
         for c in self.carList:
             if c.idNum == carID:
                 car = c
-    
+                
+        if car is None:
+            print 'error in getDirections: no car found with ID ' + str(carID)
+            return -1
+        
+        for (x, y) in car.path:
+            return -1
+            
     def addPreferences(self):
         # 0 : closest to goal
         # 1 : fastest to goal
@@ -251,7 +258,8 @@ class Simulation:
             f.write(str(car.idNum))
             f.write(',\n')
             f.write('\"path\": ')
-            f.write(str(car.path))
+            f.write(str(car.path).replace("(", "\"(").replace(")", ")\""))
+ 
             f.write('},\n')
         
         # car paths close
