@@ -5,7 +5,690 @@
 {
 "car_prefs": [{
 "type": 0,
-"cars":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)", "(14, 8)"]},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,cul0p00,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)", "(14, 8)"]},
+{"car": 2,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,cul0p00,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,cul1p06,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)", "(6, 22)", "(5, 22)", "(4, 22)", "(3, 22)", "(2, 22)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,cdr2p02,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,cul0p00,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,cul1p06,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)", "(10, 8)", "(11, 8)", "(12, 8)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)", "(6, 22)", "(5, 22)", "(4, 22)", "(3, 22)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,cdr2p02,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,cul0p00,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,cul1p06,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)", "(10, 8)", "(11, 8)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)", "(6, 22)", "(5, 22)", "(4, 22)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,cdr2p02,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,cul0p00,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,cul1p06,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)", "(10, 8)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)", "(6, 22)", "(5, 22)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,cdr2p02,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,cru0p00,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,cul1p06,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)", "(10, 9)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)", "(6, 22)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,cdlr2p02,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,clu0p00,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,cru1p06,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)", "(10, 10)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)", "(6, 21)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,cdlr2p02,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,clud0p00,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,cru1p06,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)", "(10, 11)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)", "(6, 20)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)", "(14, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,clud0p00,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,crud1p06,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,cul10001p00,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)", "(10, 12)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)", "(6, 19)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)", "(13, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,cul0p00,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,crud1p06,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,cul10001p00,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)", "(10, 13)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)", "(6, 18)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)", "(12, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,culr0p00,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,cru1p06,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,cul10001p00,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)", "(10, 14)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)", "(6, 17)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)", "(11, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,crul0p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,crud1p06,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,cul10001p00,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)", "(10, 15)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)", "(6, 16)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)", "(10, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,cul0p00,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,crud1p06,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,cul10001p00,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)", "(10, 16)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)", "(6, 15)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)", "(9, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,culr0p00,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,cru10001p00,rru,rrud,rrud,rru,rrud,rrud,crud1p06,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)", "(10, 17)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)", "(6, 14)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)", "(9, 7)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,culr0p00,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,clu10001p00,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,crud1p06,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)", "(10, 18)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)", "(6, 13)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)", "(9, 6)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,crud0p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,clud10001p00,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,crud1p06,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)", "(3, 7)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)", "(10, 19)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)", "(6, 12)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)", "(9, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,crud0p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,clud10001p00,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,crud1p06,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)", "(3, 8)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)", "(10, 20)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)", "(6, 11)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)", "(8, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,crud0p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,cul10001p00,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,crud1p06,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)", "(3, 9)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)", "(10, 21)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)", "(6, 10)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(7, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,crud0p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,culr10001p00,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,crud1p06,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": ["(4, 9)"]},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)", "(10, 22)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)", "(6, 9)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,crud0p00,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,crul10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,crud1p06,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)", "(11, 22)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)", "(6, 8)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,cul10001p00,rlud,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,cdr1p06,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)", "(12, 22)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)", "(6, 7)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,culr10001p00,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,cdlr1p06,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)", "(13, 22)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)", "(6, 6)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)", "(3, 5)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,culr10001p00,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,cdlr1p06,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)", "(13, 21)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)", "(6, 5)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)", "(3, 6)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,clud2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,cld1p06,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)", "(13, 20)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)", "(5, 5)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)", "(3, 7)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,cul2p02,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud1p06,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)", "(13, 19)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)", "(4, 5)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)", "(3, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,culr2p02,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud1p06,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)", "(13, 18)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)", "(3, 5)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)", "(3, 9)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,culr2p02,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud1p06,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)", "(13, 17)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)", "(3, 6)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)", "(3, 10)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,crud2p02,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,clud1p06,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)", "(13, 16)"]},
+{"car": 2,
+"path": ["(4, 7)", "(3, 7)"]},
+{"car": 10001,
+"path": ["(4, 11)", "(3, 11)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,crud2p02,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,clud1p06,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)", "(13, 15)"]},
+{"car": 2,
+"path": ["(4, 7)"]},
+{"car": 10001,
+"path": ["(4, 11)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,crud2p02,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,clud1p06,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)", "(13, 14)"]},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,clud1p06,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)", "(13, 13)"]},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,clud1p06,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)", "(13, 12)"]},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,clud1p06,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)", "(13, 11)"]},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,clud1p06,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": ["(12, 11)"]},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,clud1p06,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
 }, {
 "type": 1,
 "cars":[5,6]
@@ -17,21 +700,235 @@
 "path": []},
 {"car": 2,
 "path": []},
-{"car": 3,
-"path": []},
-{"car": 4,
-"path": []},
-{"car": 5,
-"path": []},
-{"car": 6,
-"path": []},
-{"car": 7,
-"path": []},
-{"car": 8,
-"path": []},
-{"car": 9,
-"path": []},
-{"car": 10,
+{"car": 10001,
 "path": []}],
-"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)", "(2, 9)", "(2, 10)", "(2, 11)", "(3, 11)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)", "(2, 9)", "(2, 10)", "(2, 11)", "(3, 11)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,fu10001p00,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)", "(2, 9)", "(2, 10)", "(2, 11)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,crud10001p00,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)", "(2, 9)", "(2, 10)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,clud10001p00,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)", "(2, 9)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,clud10001p00,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)", "(2, 8)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,clud10001p00,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+},
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 10001]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 10001,
+"path": ["(16, 7)", "(15, 7)", "(14, 7)", "(13, 7)", "(12, 7)", "(11, 7)", "(10, 7)", "(10, 6)", "(10, 5)", "(10, 4)", "(9, 4)", "(8, 4)", "(7, 4)", "(6, 4)", "(5, 4)", "(4, 4)", "(3, 4)", "(2, 4)", "(2, 5)", "(2, 6)", "(2, 7)"]}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,clud10001p00,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,fu2p02,pu,fu0p00,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,fd1p06,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
 }]}

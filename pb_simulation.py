@@ -75,7 +75,7 @@ class Simulation:
         f.close()
 
     # returns the id of the car
-    def addCars(self, entranceID,goalID,pref):
+    def addCars(self, entranceID, goalID, pref):
         car = Car()
         self.latestID += 1
         car.idNum = self.latestID
@@ -228,7 +228,6 @@ class Simulation:
         
         f.write('\"cars\":')
         
-        # TODO placeholder
         f.write(self.getPrefList(0)) 
         f.write('\n')
         f.write('}')
