@@ -89,7 +89,7 @@ class Simulation:
         car.time_staying = 10000000
         
         self.carList.append(car)
-        return car.idNum
+        return self.latestID
 
     def requestToLeave(self, carID):
         for car in self.carList:
@@ -106,9 +106,36 @@ class Simulation:
         if car is None:
             print 'error in getDirections: no car found with ID ' + str(carID)
             return -1
+       
+        directions = copy.deepcopy(car.path)
+        directions.reverse()
+        i = 0
+        x0 = -1
+        y0 = -1
+        dirstr = ''
+        #print directions
+        for (x, y) in directions:
+            if i == 0:
+                x0 = x
+                y0 = y
+            else:
+                x1 = x0 - x
+                y1 = y0 - y
+                if x1 == 1:
+                    dirstr += 'u'
+                if x1 == -1:
+                    dirstr += 'd'
+                if y1 == 1:
+                    dirstr += 'l'
+                if y1 == -1:
+                    dirstr += 'r'
+                x0 = x
+                y0 = y
+            i += 1
         
-        for (x, y) in car.path:
-            return -1
+        return dirstr
+            
+            
             
     def addPreferences(self):
         # 0 : closest to goal
