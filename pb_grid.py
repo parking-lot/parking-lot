@@ -301,6 +301,11 @@ class Grid:
             if cell.pos == pos:
                 return True
         return False
+   
+    def getInitialDirection(self, entranceID):
+        entrCell = self.entranceID[entranceID]
+        orig_direction = entrCell.original_direction
+        return orig_direction
 
     # returns a list of neighbors of all types
     # pos = (x,y) is a tuple

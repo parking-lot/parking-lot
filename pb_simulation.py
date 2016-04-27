@@ -88,7 +88,8 @@ class Simulation:
         car.time_in = self.time
         car.time_staying = 10000000
         
-        self.carList.append(car)
+        #self.carList.append(car)
+        self.carList.insert(0, car)
         return self.latestID
 
     def requestToLeave(self, carID):
@@ -134,7 +135,6 @@ class Simulation:
             i += 1
         
         return dirstr
-            
             
             
     def addPreferences(self):
