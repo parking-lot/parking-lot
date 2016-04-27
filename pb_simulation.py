@@ -106,7 +106,7 @@ class Simulation:
                 
         if car is None:
             print 'error in getDirections: no car found with ID ' + str(carID)
-            return -1
+            return []
        
         directions = copy.deepcopy(car.path)
         directions.reverse()
@@ -207,7 +207,12 @@ class Simulation:
             # a car entering the parking lot
             if not car.inParkingLot:
                 if car.time_in <= self.time and car.status is None:
-                    car.pos = self.grid.entrances[car.entranceID].pos
+                    if car.entranceID == 0:
+                        car.pos = (16,8)
+                    if car.entranceID == 1:
+                        car.pos  = (0,22)
+                    #print self.grid.entrances[1].pos
+                    #car.pos = self.grid.entrances[int(car.entranceID)].pos
                     pathLength, parkPos = self.prefs[car.prefName].getParkingLengthPos()
                     car.parkPos = parkPos
                     car.pathLength = pathLength
@@ -328,7 +333,6 @@ class Simulation:
             f.write(',\n')
             f.write('\"path\": ')
             f.write(str(car.path).replace("(", "\"(").replace(")", ")\""))
- 
             f.write('},\n')
         
         # car paths close
