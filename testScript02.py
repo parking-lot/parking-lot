@@ -8,16 +8,19 @@ sim.setOutputFileName('output_01.csv')
 #sim.setOutputFileName_simple('output_01.csv')
 
 extraCarID = -1
-for i in range(0,50):
+for i in range(0,30):
     if i == 10:
         extraCarID = sim.addCars(0,0,0)
         print 'a new car added with ID ' + str(extraCarID)
+        #print sim.getDirections(extraCarID)
        
     if i == 20:
         sim.requestToLeave(extraCarID)
         print 'the new car with ID ' + str(extraCarID) + ' is leaving the parking lot'
         
     sim.advanceTimeStep()
+    
+    print sim.getDirections(extraCarID)
     
     #sim.getTime()
     sim.output()

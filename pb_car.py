@@ -20,6 +20,8 @@ class Car:
         self.status = None
         self.inParkingLot = False
         self.stuck = False
+        self.initialdirection = None
+        self.currentdirection = None
 
     def setGoal(self, parkPos):
         self.parkPos = parkPos
@@ -39,3 +41,4 @@ class Car:
         #self.prefNum = int(infoList[6])
         self.prefNum = 0
         self.prefName = str(self.prefNum) + str(self.goalID)
+        
