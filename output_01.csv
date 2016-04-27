@@ -1,0 +1,37 @@
+{
+"map_input": "reallot.map",
+"comments": "comments",
+"frames": [
+{
+"car_prefs": [{
+"type": 0,
+"cars":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+}, {
+"type": 1,
+"cars":[5,6]
+}],
+"car_paths": [
+{"car": 0,
+"path": []},
+{"car": 1,
+"path": []},
+{"car": 2,
+"path": []},
+{"car": 3,
+"path": []},
+{"car": 4,
+"path": []},
+{"car": 5,
+"path": []},
+{"car": 6,
+"path": []},
+{"car": 7,
+"path": []},
+{"car": 8,
+"path": []},
+{"car": 9,
+"path": []},
+{"car": 10,
+"path": []}],
+"map": "w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,e1d,x1,w,w,;w,pd,pd,pd,pd,pd,pd,pd,g3dlr,pd,pd,pd,pd,pd,pd,pd,pd,w,w,w,w,w,rdr,rul,w,w,;w,rdu,rlud,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlu,w,w,w,w,w,rdr,rul,w,w,;w,rr,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdur,g5l,w,w,w,w,rdr,rul,w,w,;w,w,w,g1ud,rdlr,rulr,g2udlr,pu,pu,pu,g0udlr,pu,pu,pu,pu,pu,pu,w,w,w,w,w,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdl,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pd,pdr,rdlr,rul,w,w,;w,w,w,pr,rdl,rul,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,pr,rdlr,rrul,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rru,rrud,rrud,rrud,rrud,rdr,rul,w,w,;w,w,w,pr,rdlr,rulr,pdul,pdu,pdu,pdu,g7udlr,pdu,pdu,pdu,pdu,pdu,pdu,w,pdu,pdu,pdu,pdur,rdlr,rul,w,w,;w,w,w,w,rd,rul,rlud,rlud,rlu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlud,rlud,rlud,rdlr,rul,w,w,;w,w,w,w,rdr,rrul,rrud,rrud,rru,rru,rrud,rrud,rru,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rdr,rrul,pl,w,;w,w,w,pr,rdlr,rulr,g8ul,rdulr,rul,w,pu,pu,w,pu,pu,pu,pu,pu,pu,pu,pu,pur,rdlr,rrul,pl,w,;w,w,w,prd,rdlr,rul,w,rdr,rul,w,pd,pd,g6dlr,pd,pd,pd,pd,pd,pd,g4udlr,pd,pdr,rdlr,rrul,pld,w,;w,w,rd,rlud,rldr,rul,w,rdr,rul,w,rdu,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rlud,rld,rlud,rlu,w,;w,w,rrd,rrud,rrd,rud,w,rdr,rul,w,rrd,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrud,rrd,rrud,rdu,w,;w,w,pu,pu,pu,pu,w,rdr,rul,w,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,pu,w,;w,w,w,w,w,w,w,x0,e0u,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,;"
+}]}
