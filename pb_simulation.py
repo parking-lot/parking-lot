@@ -114,6 +114,7 @@ class Simulation:
         x0 = -1
         y0 = -1
         dirstr = ''
+        dirList = []
         #print directions
         for (x, y) in directions:
             if i == 0:
@@ -124,17 +125,59 @@ class Simulation:
                 y1 = y0 - y
                 if x1 == 1:
                     dirstr += 'u'
+                    dirList.append('u')
                 if x1 == -1:
                     dirstr += 'd'
+                    dirList.append('d')
                 if y1 == 1:
                     dirstr += 'l'
+                    dirList.append('l')
                 if y1 == -1:
                     dirstr += 'r'
+                    dirList.append('r')
                 x0 = x
                 y0 = y
             i += 1
-        
-        return dirstr
+           
+        retStr = ''
+        lastDir = 'u'
+        for z in dirList:
+            if z == 'u':
+                if lastDir == 'u':
+                    retStr += 'f'
+                if lastDir == 'l':
+                    retStr += 'r'
+                if lastDir == 'r':
+                    retStr += 'l'
+                    
+            if z == 'l':
+                if lastDir == 'l':
+                    retStr += 'f'
+                if lastDir == 'u':
+                    retStr += 'l'
+                if lastDir == 'd':
+                    retStr += 'r'
+                
+            if z == 'r':
+                if lastDir == 'r':
+                    retStr += 'f'
+                if lastDir == 'u':
+                    retStr += 'r'
+                if lastDir == 'd':
+                    retStr += 'l'
+                    
+            if z == 'd':
+                if lastDir == 'd':
+                    retStr += 'f'
+                if lastDir == 'l':
+                    retStr += 'l'
+                if lastDir == 'r':
+                    retStr += 'r'
+            lastDir = z
+                    
+        #print dirstr
+        #print retStr
+        return retStr
             
             
     def addPreferences(self):

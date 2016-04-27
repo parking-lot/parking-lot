@@ -8,7 +8,7 @@ sim.setOutputFileName('output_01.csv')
 #sim.setOutputFileName_simple('output_01.csv')
 
 extraCarID = -1
-for i in range(0,30):
+for i in range(0,20):
     if i == 10:
         extraCarID = sim.addCars(0,0,0)
         print 'a new car added with ID ' + str(extraCarID)
