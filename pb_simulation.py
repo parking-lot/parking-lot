@@ -71,20 +71,6 @@ class Simulation:
         for line in f:
             car = Car()
             car.initialize_from_string(line)
-            #print "key: " + str(car.entranceID)
-            car.pos = self.grid.entrances[car.entranceID].pos
-            self.carList.append(car)
-            #self.carQueue.append(car)
-        f.close()
-        
-    # load cars from file
-    def loadCars(self, fileName):
-        print "loading cars"
-        f = open(fileName, 'r')
-        next(f)
-        for line in f:
-            car = Car()
-            car.initialize_from_string(line)
             self.carList.append(car)
         f.close()
 
@@ -111,14 +97,12 @@ class Simulation:
                 car.time_staying = self.time - car.time_in
         return 0
     
-    def getPath(self, carID):
-        for car in self.carList:
-            if car.idNum == carID:
-                return car.path
-            
-    def getPathStr(car):
-        return str(car.path)
-        
+    def getDirections(self, carID):
+        car = None 
+        for c in self.carList:
+            if c.idNum == carID:
+                car = c
+    
     def addPreferences(self):
         # 0 : closest to goal
         # 1 : fastest to goal
@@ -221,6 +205,125 @@ class Simulation:
 
     def output(self):
         f = self.f
+        
+        # frames open
+        f.write('{')
+        f.write('\n')
+        
+        # preferences open
+        f.write('\"car_prefs": ')
+        f.write('[{')
+        f.write('\n')
+        
+        f.write('\"type\": ')
+        f.write('0')
+        f.write(',\n')
+        
+        f.write('\"cars\":')
+        
+        # TODO placeholder
+        f.write(self.getPrefList(0)) 
+        f.write('\n')
+        f.write('}')
+        
+        f.write(', {\n')
+        f.write('\"type\": ')
+        f.write('1')
+        f.write(',\n')
+        
+        f.write('\"cars\":')
+        # TODO placeholder
+        f.write('[5,6]')
+        f.write('\n')
+        f.write('}')
+       
+        # preferences close
+        f.write('],\n')
+        
+        # car paths open
+        f.write('\"car_paths\": ')
+        f.write('[')
+        f.write('\n')
+       
+        for car in self.carList:
+            f.write('{')
+            f.write('\"car\": ')
+            f.write(str(car.idNum))
+            f.write(',\n')
+            f.write('\"path\": ')
+            f.write(str(car.path))
+            f.write('},\n')
+        
+        # car paths close
+        f.seek(-2,2)
+        f.truncate()
+        f.write('],\n')
+        
+        # map open
+        f.write('\"map\": ')
+        f.write('\"')
+       
+        grid = self.grid
+        for x in range(0, grid.height):
+            for y in range(0, grid.width):
+                cell = grid.grid[(x,y)]
+                wstr = cell.cellType[0]
+
+                if cell.cellType == 'PARK':
+                    wstr = 'p'
+
+                if cell.cellType == 'WALL':
+                    wstr = 'w'
+
+                if cell.cellType == 'ROAD':
+                    wstr = 'r'
+
+                if cell.cellType == 'ENTR':
+                    wstr = 'e' + str(cell.idNum)
+
+                if cell.cellType == 'EXIT':
+                    wstr = 'x' + str(cell.idNum)
+                    
+                if cell.cellType == 'GOAL':
+                    wstr = 'g' + str(cell.idNum)
+
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr = 'c'
+                        if car.pos == car.parkPos:
+                            wstr = 'f'
+
+                if cell.original_direction is not None:
+                    wstr += cell.original_direction
+                if cell.up and cell.original_direction != 'u':
+                    wstr += 'u'
+                if cell.down and cell.original_direction !='d':
+                    wstr += 'd'
+                if cell.left and cell.original_direction != 'l':
+                    wstr += 'l'
+                if cell.right and cell.original_direction != 'r':
+                    wstr += 'r'
+
+                for car in self.carList:
+                    if car.pos == (x,y):
+                        wstr += str(car.idNum)
+                        wstr += 'p'
+                        wstr += car.prefName
+
+                f.write(wstr + ',')
+            f.write(';')
+
+        # map close
+        f.write('\"\n')
+        
+        # frame close
+        f.write('},\n')
+        
+        #self.closeOutputFile()
+        return None
+    
+    def outputLog(self, logFileName):
+        f = open(logFileName, 'w')
         
         # frames open
         f.write('{')
