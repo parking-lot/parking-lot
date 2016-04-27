@@ -22,6 +22,10 @@ class Preference:
     def getParkingLengthPos(self):
         psPos = hq.heappop(self.pq)
         return psPos
+    
+    def readdParkingSpot(self, pos):
+        print 'error: readding parkingspot for this preference not implemented'
+        return -1
 
     def removeParkingSpot(self, pos):
         for (compVal, psPos) in self.pq:
@@ -40,7 +44,11 @@ class Pref_closest_to_goal(Preference):
             compVal = self.hVal(parkSpot.pos, self.goalCell.pos)
             hq.heappush(self.pq, (compVal, parkSpot.pos))
         return None
-
+    
+    def readdParkingSpot(self, pos):
+        compVal = self.hVal(pos, self.goalCell.pos)
+        hq.heappush(self.pq, (compVal, pos))
+                    
 # Closest to goal (temporal)
 class Pref_closest_to_goal_temporal(Preference):
     def __init__(self, grid, goalCell, name, walk_weight, park_weight):

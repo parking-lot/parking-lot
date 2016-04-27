@@ -7,15 +7,18 @@ class Car:
         self.goalID = 0
         self.exitID = 0
         self.time_in = 0
+        self.time_in_real = -1
         self.time_parked = 1000000
         self.time_staying = 0
         self.prefName = None
         self.prefNum = 0
         self.pos = None
         self.parkPos = None
-        self.pathList = []
+        #self.pathList = []
+        self.path = []
         self.pathLength = -1
         self.status = None
+        self.inParkingLot = False
         self.stuck = False
 
     def setGoal(self, parkPos):

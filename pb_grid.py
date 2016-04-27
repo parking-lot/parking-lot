@@ -216,24 +216,46 @@ class Grid:
                             cell.newUp = True
                         elif not (cell.up or upcell.down) and (upcell.cellType == 'ROAD' or upcell.cellType == 'PARK' or upcell.cellType == 'GOAL'):
                             cell.newUp = True
+                            if x > 1:
+                                upupcell = self.grid[(x-2, y)]
+                                if upcell.cellType == 'ROAD' and upupcell.cellType == 'ROAD' and not upupcell.up:
+                                    cell.newUp = False
+ 
+                    # TODO check for cases where x == self.height - 1
                     if x < self.height - 1:
                         downcell = self.grid[(x+1,y)]
+                        #downdowncell = self.grid[(x+2,y)]
                         if downcell.cellType == 'PARK':
                             cell.newDown = True
-                        elif not (cell.down or downcell.up) and (downcell.cellType == 'ROAD' or downcell.cellType == 'PARK' or downcell.cellType == 'GOAL'):
+                        elif not (cell.down or downcell.up) \
+                            and (downcell.cellType == 'ROAD' or downcell.cellType == 'PARK' or downcell.cellType == 'GOAL') :
                             cell.newDown = True
+                            if x < self.height - 2:
+                                downdowncell = self.grid[(x+2, y)]
+                                if downcell.cellType == 'ROAD' and downdowncell.cellType == 'ROAD' and not downdowncell.down:
+                                    cell.newDown = False
+                            
                     if y > 0:
                         leftcell = self.grid[(x,y-1)]
                         if leftcell.cellType == 'PARK':
                             cell.newLeft = True
                         elif not (cell.left or leftcell.right) and (leftcell.cellType == 'ROAD' or leftcell.cellType == 'PARK' or leftcell.cellType == 'GOAL'):
                             cell.newLeft = True
+                            if y > 1:
+                                leftleftcell = self.grid[(x, y-2)]
+                                if leftcell.cellType == 'ROAD' and leftleftcell.cellType == 'ROAD' and not leftleftcell.left:
+                                    cell.newleft = False
+ 
                     if y < self.width - 1:
                         rightcell = self.grid[(x,y+1)]
                         if rightcell.cellType == 'PARK':
                             cell.newRight = True
                         if not (cell.right or rightcell.left) and (rightcell.cellType == 'ROAD' or rightcell.cellType == 'PARK' or rightcell.cellType == 'GOAL'):
                             cell.newRight = True
+                            if y < self.width - 2:
+                                rightrightcell = self.grid[(x, y+2)]
+                                if rightcell.cellType == 'ROAD' and rightrightcell.cellType == 'ROAD' and not rightrightcell.right:
+                                    cell.newRight = False
                     
                 elif cell.cellType == 'PARK':
                     if x > 0:
@@ -269,57 +291,6 @@ class Grid:
                 if cell.right or cell.newRight:
                     cell.right = True
                     cell.neighbors.append((x,y+1))
- 
-    #def writeToFile(self,outfile):
-    #    f = open(outfile, 'w')
-    #    rawGrid = []
-    #
-    #    grid = self.grid
-    #    for x in range(0, self.height):
-    #        for y in range(0, self.width):
-    #            print 'x: ' + str(x) + ' y: ' + str(y)
-    #            cell = grid[(x,y)]
-    #            wstr = cell.cellType[0]
-    #
-    #            if cell.cellType == 'PARK':
-    #                wstr = 'p'
-    #
-    #            if cell.cellType == 'WALL':
-    #                wstr = 'w'
-    #
-    #            if cell.cellType == 'ROAD':
-    #                wstr = 'r'
-    #
-    #            if cell.cellType == 'ENTR':
-    #                wstr = 'e'
-    #
-    #            if cell.cellType == 'EXIT':
-    #                wstr = 'x' + str(cell.idnum)
-    #
-    #            print cell.original_direction
-    #            print "debug"
-    #            if cell.original_direction is not None:
-    #                print cell.original_direction
-    #                wstr += cell.original_direction
-    #            if cell.up and cell.original_direction != 'u':
-    #                wstr += 'u'
-    #            if cell.down and cell.original_direction != 'd':
-    #                wstr += 'd'
-    #            if cell.left and cell.original_direction != 'l':
-    #                wstr += 'l'
-    #            if cell.right and cell.original_direction != 'r':
-    #                wstr += 'r'
-    #
-    #            if cell.cellType == 'GOAL':
-    #                wstr = 'g' + str(cell.idnum)
-    #
-    #            f.write(wstr + ',')
-    #        f.write('\n')
-    #
-    #    f.write('!\n')
-    #    
-    #    f.close()
-    #    return None
 
     def isExit(self, pos):
         for _, cell in self.exits.iteritems():
@@ -430,6 +401,9 @@ class Grid:
         return []
  
     def findPathBFS_to_exit(self, startPos, exitID):
+        #print 'finding path to exit'
+        #print startPos
+        #print exitID
         return self.findPathBFS(startPos, self.exits[exitID].pos)
    
     def findPath(self, pos1, pos2):
